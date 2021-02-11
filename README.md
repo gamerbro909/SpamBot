@@ -1,5 +1,3 @@
-# Spam Bot
-
 ![](https://cdn.discordapp.com/attachments/809311213703921674/809322001235443712/MOSHED-2021-2-11-7-16-34.gif)
 
 
