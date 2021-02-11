@@ -24,5 +24,7 @@
 	<pre><p> DoneMessage will type out, but won't send 'Done!' after the script is completed.  </p></pre>
 <b>ChillZone: </b>
 	<pre><p> ChillZone is a feature which will try an bypass sites with a message cooldown, such as discord. </p></pre>
+<b>MessageDelay: </b>
+	<pre><p>  How many seconds between each message being sent. </p></pre>
 
 <p> Config options can be found at the top of <b>Main.py</b>! </p>
