@@ -1,4 +1,4 @@
-# You could probably get your account auto banned for this, be careful
+# You could probably get your account auto banned for this, be careful // Discord: ryann#7322
 import pyautogui, time
 
 # How long until the bot begins spamming.
