@@ -7,7 +7,7 @@ WaitTime = 10
 DoneMessage = 'true'
 # For social medias which have a message cool down, mainly for Discord.
 ChillZone = 'false'
-
+ChillZoneTime = 1
 # This is a potential fix for /'s breaking on certain platforms.
 SlashFix = 'true'
 
@@ -17,7 +17,7 @@ b = open("script", 'r')
 
 for word in b:
     if ChillZone == 'true':
-        time.sleep(1)
+        time.sleep(ChillZoneTime)
 
     pyautogui.typewrite(word)
     pyautogui.press("enter")
