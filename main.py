@@ -1,12 +1,12 @@
-# You could probably get your account auto banned for this, be careful
-import pyautogui, time
+# You could probably get your account auto banned for this, be careful // Discord: ryann#7322
+import pyautogui
+import time 
 
-WaitTime = 7 # How long until the bot begins spamming.
-DoneMessage = 'true' # This will type 'Done!' when the script has finished. It won't send it, rather it will show typed in the text box
-ChillZone = 'true' # For social medias which have a message cool down, mainly for Discord.
-ChillZoneTime = 1 # If ChillZone is enabled, this is how long the cooldown is
-SlashFix = 'true' # This is a potential fix for /'s breaking on certain platforms.
-ShowDebug = 'false' # Shows Debug Messages in console
+WaitTime = 7  # How long until the bot begins spamming. Default = 7
+DoneMessage = 'true'  # This will type 'Done!' when the script has finished. Default = 'true'
+ChillZone = 'true'  # For social medias which have a message cool down, mainly for Discord. Default = 'true'
+ChillZoneTime = 1  # If ChillZone is enabled, this is how long the cool down is. Default = 1
+ShowDebug = 'false'  # Shows Debug Messages in console. Default = 'false'
 
 if ShowDebug == 'true':
     print("WaitTime =", WaitTime)
@@ -25,9 +25,7 @@ for word in b:
     pyautogui.press("enter")
     if ShowDebug == 'true':
         print("Sent:", word)
-
-    if SlashFix == 'true':
-        pyautogui.press("enter")
+    pyautogui.press("enter") # <-- Potential fix to /'s breaking on certain platforms
 
 if DoneMessage == 'true':
     pyautogui.typewrite("Done!")
