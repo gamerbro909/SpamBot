@@ -11,3 +11,12 @@
 
 
 <p> For more information on how to use, after running main.py, Click on the text box on any social media where you would normally type and wait for the WaitTime setting to finish, which can be customisable </p>
+
+
+# Config
+<b>WaitTime: </b> 
+	 <pre><p> WaitTime is how long from pressing 'Run' that the bot will take to start sending messages. </p></pre>
+<b>DoneMessage: </b>
+	<pre><p> DoneMessage will type out, but won't send 'Done!' after the script is completed. It will also send a log in the console. </p></pre>
+<b>ChillZone: </b>
+	<pre><p> ChillZone is a feature which will try an bypass sites with a message cooldown, such as discord. Enabling this is recomended, but also optional. </p></pre>
