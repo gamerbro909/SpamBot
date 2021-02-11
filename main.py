@@ -11,7 +11,7 @@ ChillZoneTime = 1
 # This is a potential fix for /'s breaking on certain platforms.
 SlashFix = 'true'
 # Shows Debug Messages in console
-ShowDebug = 'true'
+ShowDebug = 'false'
 
 if ShowDebug == 'true':
     print("WaitTime =", WaitTime)
