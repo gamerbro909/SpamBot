@@ -14,7 +14,7 @@
 
 
 
-<p> For more information on how to use, after running main.py, Click on the text box on any social media where you would normally type and wait for the WaitTime setting to finish, which can be customisable </p>
+<p> Make sure to click wherever you normally start typing, as this is where the bot will start spamming. </p>
 
 
 # Config
