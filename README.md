@@ -24,6 +24,8 @@
 	<pre><p> DoneMessage will type out, but won't send 'Done!' after the script is completed. It will also send a log in the console. </p></pre>
 <b>ChillZone: </b>
 	<pre><p> ChillZone is a feature which will try an bypass sites with a message cooldown, such as discord. Enabling this is recomended, but also optional. </p></pre>
+<b>DebugMode: </b>
+	<pre><p> DebugMode shows every word and each config setting in the console </p></pre>
 	
 	
 	
