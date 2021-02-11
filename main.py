@@ -22,7 +22,8 @@ for word in b:
         time.sleep(ChillZoneTime)
 
     pyautogui.typewrite(word)
-    pyautogui.press("enter", "enter")
+    pyautogui.press("enter")
+    pyautogui.press("enter")
 
     if Debug == 'true':
         print("Sent:", word)
