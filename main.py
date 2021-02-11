@@ -6,13 +6,6 @@ WaitTime = 7  # How long until the bot begins spamming. Default = 7
 DoneMessage = 'true'  # This will type 'Done!' when the script has finished. Default = 'true'
 ChillZone = 'true'  # For social medias which have a message cool down, mainly for Discord. Default = 'true'
 ChillZoneTime = 1  # If ChillZone is enabled, this is how long the cool down is. Default = 1
-Debug = 'false'  # Shows Debug Messages in console. Default = 'false'
-
-if Debug == 'true':
-    print("WaitTime =", WaitTime)
-    print("DoneMessage =", DoneMessage)
-    print("ChillZone =", ChillZone)
-    print("ChillZoneTime =", ChillZoneTime)
 
 time.sleep(WaitTime)
 b = open("script", 'r')
@@ -25,10 +18,8 @@ for word in b:
     pyautogui.press("enter")
     pyautogui.press("enter")
 
-    if Debug == 'true':
-        print("Sent:", word)
-
     if DoneMessage == 'true':
         pyautogui.typewrite("Done!")
         print("Done!")
-        exit()
+
+exit()
