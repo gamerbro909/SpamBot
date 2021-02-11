@@ -14,7 +14,7 @@
 
 
 
-<p> Make sure to click wherever you normally start typing, as this is where the bot will start spamming. </p>
+<p> Make sure to click wherever you normally start typing, as this is where the bot will start spamming. The '<B>WaitTime</b>' config will help you if you need more time to prepare. </p>
 
 
 # Config
