@@ -13,7 +13,7 @@ b = open("script", 'r')
 
 for word in b:
     if ChillZone == 'true':
-        time.sleep(2)
+        time.sleep(1)
 
     pyautogui.typewrite(word)
     pyautogui.press("enter")
