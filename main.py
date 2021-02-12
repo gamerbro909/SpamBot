@@ -4,7 +4,7 @@ import time
 
 WaitTime = 7  # How long until the bot begins spamming. Default = 7
 DoneMessage = 'true'  # This will type 'Done!' when the script has finished. Default = 'true'
-ChillZone = 'false'  # For social medias which have a message cool down, mainly for Discord. Default = 'true'
+ChillZone = 'false'  # For social medias which have a message cool down, mainly for Discord. Default = 'false'
 MessageDelay = 0  # How many seconds between each message. Default = 0
 
 time.sleep(WaitTime)
@@ -20,7 +20,3 @@ for word in sb:
 
 if DoneMessage == 'true':
     pyautogui.typewrite("Done!")
-    print("Done!")
-
-exit()
-
