@@ -1,22 +1,24 @@
 # You could probably get your account banned or reported for this, be careful // Discord: ryann#7322
 import pyautogui
 import time
+from ruamel.yaml import YAML
 
-WaitTime = 7  # How long until the bot begins spamming. Default = 7
-DoneMessage = 'true'  # This will type 'Done!' when the script has finished. Default = 'true'
-ChillZone = 'false'  # For social medias which have a message cool down, mainly for Discord. Default = 'false'
-MessageDelay = 0  # How many seconds between each message. Default = 0
+yaml = YAML()
 
-time.sleep(WaitTime)
+with open("./config.yml", "r", encoding="utf-8") as file:
+    config = yaml.load(file)
+
+
+time.sleep(config['WaitTime'])
 sb = open("script.txt", 'r')
 
 for word in sb:
-    if ChillZone == 'true':
+    if config['ChillZone'] == 'true':
         time.sleep(1.7)
 
-    time.sleep(MessageDelay)
+    time.sleep(config['MessageDelay'])
     pyautogui.typewrite(word)
     pyautogui.press("enter")
 
-if DoneMessage == 'true':
+if config['DoneMessage'] == 'true':
     pyautogui.typewrite("Done!")
