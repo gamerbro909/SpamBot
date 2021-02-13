@@ -1,0 +1,11 @@
+# How long until the bot begins spamming. Default = 7
+WaitTime: 7
+
+# This will type 'Done!' when the script has finished. Default = 'true'
+DoneMessage: 'true'
+
+# For social medias which have a message cool down, mainly for Discord. Default = 'false'
+ChillZone: 'true'
+
+# How many seconds between each message. Default = 0
+MessageDelay: 0
