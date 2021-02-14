@@ -25,4 +25,4 @@
 <b>MessageDelay: </b>
 	<pre><p>  How many seconds between each message being sent. </p></pre>
 
-<p> Config options can be found at the top of <b>Main.py</b>! </p>
+<p> Config options can be found at <b>config.yml</b>! </p>
