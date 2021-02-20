@@ -5,6 +5,7 @@
 
 <h3>To install <b>Requirements :</b></h3> 
 	 <pre><p> <i>pip install pyautogui</i></p></pre>
+	 <pre><p> <i>pip install keyboard</i></p></pre>
 <b>Use: </b>
 	<pre><p> Select the message box on the media you would like to Spam, then run.</p></pre>
 <b>Tip: </b>
