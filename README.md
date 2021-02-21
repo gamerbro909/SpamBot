@@ -1,4 +1,4 @@
-<iframe src="https://discord.com/widget?id=809362745354354688&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+![](<iframe src="https://discord.com/widget?id=809362745354354688&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>)
 
 ![](https://cdn.discordapp.com/attachments/809311213703921674/809322001235443712/MOSHED-2021-2-11-7-16-34.gif)
 
