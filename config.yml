@@ -1,4 +1,4 @@
-# Config Version 1.1 // Requires MAIN 1.6
+# Config Version 1.1 // Requires MAIN 1.6 - 1.7
 
 # How long until the bot begins spamming. Default = 7
 WaitTime: 5
@@ -10,7 +10,7 @@ ChillZone: 'true'
 MessageDelay: 0
 
 # Should the script be looped? False/True
-script_loop: True
+script_loop: False
 
 # Stop Button // NOTE: If using with loops, the script must have done at least 1 (one) loop! (working on a fix)
 stop_key: 'q'
