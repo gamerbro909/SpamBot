@@ -9,7 +9,7 @@ ChillZone: 'true'
 # How many seconds between each message. Default = 0
 MessageDelay: 0
 
-# Should the script be looped? False/True // NOTE: THIS FEATURES DOES NOT WORK WITH CHILLZONE, DONEMESSAGE!
+# Should the script be looped? False/True
 script_loop: True
 
 # Stop Button // NOTE: If using with loops, the script must have done at least 1 (one) loop! (working on a fix)
