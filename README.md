@@ -4,10 +4,9 @@
 <p><b>Spam Bot</b> works on any platform. Made with <b>python</b>. Need Help? Join the Support Server: https://discord.gg/HwJhy88aGm</p>
 
 <h3>To install <b>Requirements :</b></h3> 
-	 <pre><p> <i>pip install pyautogui</i></p></pre>
-	 <pre><p> <i>pip install keyboard</i></p></pre>
-<b>Use: </b>
-	<pre><p> Select the message box on the media you would like to Spam, then run.</p></pre>
+	 <pre><p> <i>Run The Included install.bat!</i></p></pre>
+<b>How To Use: </b>
+	<pre><p> After setting up your config and customising your script, start main.py (python main.py). Then, select the TextBox where you would normally type, then the bot wil do the rest!</p></pre>
 <b>Tip: </b>
 	<pre><p> You can change the WaitTime to something more reasonable, this is set in <b>seconds</b>. Recomended is <B>10</b></p></pre>
 
@@ -19,11 +18,14 @@
 # Config
 <b>WaitTime: </b> 
 	 <pre><p> WaitTime is how long from pressing 'Run' that the bot will take to start sending messages. </p></pre>
-<b>DoneMessage: </b>
-	<pre><p> DoneMessage will type out, but won't send 'Done!' after the script is completed.  </p></pre>
 <b>ChillZone: </b>
 	<pre><p> ChillZone is a feature which will try an bypass sites with a message cooldown, such as discord. </p></pre>
 <b>MessageDelay: </b>
 	<pre><p>  How many seconds between each message being sent. </p></pre>
+<b>ScriptLoop: </b>
+	<pre><p>  Enables the Script to loop itself. </p></pre>
+<b>QuitKey: </b>
+	<pre><p>  Quit's the script by pressing a certain key of your choice. </p></pre>
+	
 
 <p> Config options can be found at <b>config.yml</b>! </p>
