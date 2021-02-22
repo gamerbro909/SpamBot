@@ -1,11 +1,9 @@
 https://cdn.discordapp.com/attachments/809311213703921674/809322001235443712/MOSHED-2021-2-11-7-16-34.gif
 Hey!
-Thanks for downloading.
-If all is working right..
-You should be able to see these messages!
-This Script was developed by Kumo, But my GitHub is Mysttt
-If you get banned from any Discord Server / Service
-That is on you, and not me
-Don't forget to customise the config if needed!
+Script Bot Is Now On 1.6!
+Need Help or Run Into Any Issues?
+Join The Support Server Here: https://discord.gg/HwJhy88aGm
+Don't Forget to leave a Star!
+Also Don't forget to check out some of my other projects!
 Github Repo Here:
 https://github.com/Mysttt/SpamBot
